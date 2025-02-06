@@ -1,0 +1,88 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/033/259/514/non_2x/thai-food-som-tum-spicy-green-papaya-salad-top-view-ai-generated-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    height: 60px;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.397);
+    display: flex;
+    align-items: center;
+    font-weight: 550;
+
+}
+.container{
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin-right: 30px;
+}
+.logo{
+    font-size: 24px;
+}
+.list li{
+    /* margin-right: 30px; */
+    margin-left: 50px;
+}
+.h2{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 130px;
+    margin-right: 455px;
+}
+.p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 455px;
+    margin-top: 5px;
+}
+.search input{
+    /* color: aqua; */
+    width: 20%;
+    padding: 7px;
+    border-radius: 5px;
+    
+    text-align: center;
+}
+.search button{
+    background-color: orangered;
+width: 7%;
+padding: 7px;
+}
+
+form.search{
+    /* align-items: center; justify-content: center; */
+    margin-left: 260px;
+    max-width: -206px;
+    margin-top: 10px;
+}
+h3{
+    color: #fff;
+    margin-top: 300px;
+}
+.new{
+    color: #fff;
+}
+@media only screen and (min-width: 800px) {
+  .nav .list  {
+    display: block;
+  }
+}
